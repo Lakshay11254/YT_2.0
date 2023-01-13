@@ -2,7 +2,7 @@ import React from 'react'
 import { Stack,Box } from '@mui/system'
 import ChannelCard from './ChannelCard'
 import VideoCard from './VideoCard'
-import { Loader } from './Loader'
+import Loader from './Loader'
 
 const Videos = ({ videos, direction }) => {
   if(!videos?.length) return <Loader />;
